@@ -98,7 +98,7 @@ def main():
     for src in sorted(SRC.glob("*.html")):
         text = src.read_text()
         head, body = text.split("\n\n", 1)
-        meta = dict(line.split(": ", 1) for line in head.splitlines())
+        meta = {k.strip(): v.strip() for k, v in (line.split(":", 1) for line in head.splitlines())}
         body = body.replace("{{BOOK}}", BOOK).replace("{{EMAIL}}", EMAIL)
         body = body.replace("{{MONOGRAM}}", MONOGRAM)
         body = re.sub(r"\{\{SVG:([\w.-]+)\}\}", lambda m: inline_svg(m.group(1)), body)
