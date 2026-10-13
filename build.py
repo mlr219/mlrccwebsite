@@ -62,7 +62,7 @@ FOOTER = f"""<footer class="site-footer">
         </ul>
       </nav>
     </div>
-    <p class="legal">MLR Consumer&amp;Commerce is a brand of MLR Global SRL, P.IVA IT11868950962. This site sets no cookies.</p>
+    <p class="legal">MLR Consumer&amp;Commerce is a brand of MLR Global SRL. Registered office: Viale Abruzzi 31, 20131 Milano (MI), Italy. Registro Imprese di Milano Monza Brianza Lodi and P.IVA IT11868950962, REA MI-2628589. Share capital €10,000, fully paid. This site sets no cookies.</p>
   </div>
 </footer>
 <script>
