@@ -62,7 +62,7 @@ FOOTER = f"""<footer class="site-footer">
         </ul>
       </nav>
     </div>
-    <p class="legal">MLR Consumer&amp;Commerce is a brand of MLR Global SRL. P.IVA [to add]. This site sets no cookies.</p>
+    <p class="legal">MLR Consumer&amp;Commerce is a brand of MLR Global SRL, P.IVA IT11868950962. This site sets no cookies.</p>
   </div>
 </footer>
 <script>
