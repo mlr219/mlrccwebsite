@@ -21,7 +21,7 @@
 @font-face { font-family: "Montserrat"; font-weight: 400; font-display: swap; src: url("../assets/fonts/montserrat-latin-400-normal.woff2") format("woff2"); }
 @font-face { font-family: "Montserrat"; font-weight: 500; font-display: swap; src: url("../assets/fonts/montserrat-latin-500-normal.woff2") format("woff2"); }
 @font-face { font-family: "Montserrat"; font-weight: 600; font-display: swap; src: url("../assets/fonts/montserrat-latin-600-normal.woff2") format("woff2"); }
-:root { --shadow:#38383B; --scorpion:#4E4D4F; --muted:#6E6D70; --antiflash:#DFE0E1; --mist:#F4F4F5; --pumpkin:#E26942; --deep:#C4502C; }
+:root { --shadow:#38383B; --scorpion:#4E4D4F; --muted:#6E6D70; --antiflash:#DFE0E1; --mist:#F4F4F5; --red:#C0392B; --deep:#9E2B20; }
 * { box-sizing: border-box; }
 html, body { margin: 0; background: #fff; color: var(--shadow); font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif; -webkit-text-size-adjust: 100%; }
 main { max-width: 26rem; margin: 0 auto; padding: 3rem 1.25rem 2.5rem; min-height: 100svh; display: flex; flex-direction: column; }
@@ -35,9 +35,9 @@ h1 { font-weight: 300; font-size: 2rem; line-height: 1.15; margin: 0; letter-spa
 .line { margin: 1.25rem 0 0; color: var(--scorpion); font-size: .95rem; line-height: 1.55; }
 .links { list-style: none; padding: 0; margin: 2.25rem 0 0; display: grid; gap: .75rem; }
 .links a { display: flex; justify-content: space-between; align-items: center; gap: 1rem; padding: 1.05rem 1.15rem; border: 1px solid var(--antiflash); border-radius: 3px; text-decoration: none; color: var(--shadow); font-weight: 500; font-size: 1rem; }
-.links a::after { content: "\2192"; color: var(--pumpkin); font-weight: 400; }
-.links a:hover { border-color: var(--pumpkin); }
-.links a.primary { background: var(--pumpkin); border-color: var(--pumpkin); color: #fff; font-weight: 600; font-size: 1.2rem; }
+.links a::after { content: "\2192"; color: var(--red); font-weight: 400; }
+.links a:hover { border-color: var(--red); }
+.links a.primary { background: var(--red); border-color: var(--red); color: #fff; font-weight: 600; font-size: 1.2rem; }
 .links a.primary::after { content: "\2193"; color: #fff; }
 .links a.primary:hover { background: var(--deep); border-color: var(--deep); }
 a:focus-visible { outline: 2px solid var(--deep); outline-offset: 3px; }
