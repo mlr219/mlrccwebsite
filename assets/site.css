@@ -234,3 +234,6 @@ html { scroll-behavior: smooth; }
 @media (max-width: 720px) { .myths { grid-template-columns: 1fr; } }
 .delivery { margin-top: 2.5rem; color: var(--scorpion); }
 .delivery strong { font-weight: 600; color: var(--shadow); }
+.case .result-text { font-size: clamp(1.35rem, 2.4vw, 1.7rem); font-weight: 300; line-height: 1.3; margin: .6rem 0 1rem; color: var(--shadow); }
+.earlier { margin-top: 3rem; max-width: 46rem; color: var(--scorpion); }
+.earlier strong { font-weight: 600; color: var(--shadow); }
