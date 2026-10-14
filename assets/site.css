@@ -245,4 +245,4 @@ html { scroll-behavior: smooth; }
 .stage { margin: 3rem 0 .5rem; }
 .stage h3 { font-size: .78rem; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: var(--shadow); margin: 0 0 .35rem; }
 .stage p { margin: 0; color: var(--scorpion); }
-.eyebrow { font-size: .78rem; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: var(--scorpion); margin: 0 0 1rem; }
+.eyebrow, .section-head .eyebrow { font-size: .78rem; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: var(--scorpion); margin: 0 0 1.5rem; }
