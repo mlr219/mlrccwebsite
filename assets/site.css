@@ -237,3 +237,6 @@ html { scroll-behavior: smooth; }
 .case .result-text { font-size: clamp(1.35rem, 2.4vw, 1.7rem); font-weight: 300; line-height: 1.3; margin: .6rem 0 1rem; color: var(--shadow); }
 .earlier { margin-top: 3rem; max-width: 46rem; color: var(--scorpion); }
 .earlier strong { font-weight: 600; color: var(--shadow); }
+.case-group { font-size: .78rem; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); margin: 0 0 1.5rem; }
+.case-group ~ .case-group { margin-top: 4rem; }
+.case-group + .case-full { border-top: 0; padding-top: 0; }
