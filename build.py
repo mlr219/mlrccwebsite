@@ -95,6 +95,7 @@ def page(title, description, active, body):
 {body}
 </main>
 {FOOTER}
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{{"token": "004b445959e248168bd6f747ff837593"}}'></script>
 </body>
 </html>
 """
