@@ -21,7 +21,7 @@
   --measure: 38rem;
   --wrap: 72rem;
   --gutter: clamp(1rem, 4vw, 3rem);
-  --section: clamp(3.5rem, 6.5vw, 5.5rem);
+  --section: clamp(2.75rem, 4.5vw, 4rem);
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -88,7 +88,7 @@ h3 { font-size: 1.25rem; font-weight: 500; letter-spacing: 0; line-height: 1.3; 
 /* Sections */
 .section { padding: var(--section) 0; }
 .section + .section { border-top: 1px solid var(--antiflash); }
-.section-head { max-width: 44rem; margin-bottom: clamp(2.5rem, 5vw, 4rem); }
+.section-head { max-width: 44rem; margin-bottom: clamp(2rem, 3.5vw, 3rem); }
 .section-head p { margin-top: 1.25rem; color: var(--scorpion); font-size: 1.125rem; }
 .panel { background: var(--mist); }
 .section.panel + .section, .section + .section.panel { border-top: 0; }
@@ -212,7 +212,7 @@ h3 { font-size: 1.25rem; font-weight: 500; letter-spacing: 0; line-height: 1.3; 
 .forms-result { margin-top: 2.5rem; color: var(--shadow); font-weight: 500; }
 .side-head { font-size: 1.35rem; font-weight: 400; margin: .4rem 0 1rem; }
 .pov { font-weight: 500; color: var(--shadow); border-left: 2px solid var(--silver); padding-left: 1rem; margin-top: 1.25rem; }
-.inside { margin-top: clamp(3.5rem, 7vw, 5.5rem); max-width: var(--measure); }
+.inside { margin-top: clamp(2.5rem, 4vw, 3.5rem); max-width: var(--measure); }
 @media (max-width: 720px) { .forms, .feel-grid { grid-template-columns: 1fr; } .forms { gap: 2rem; } }
 html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
