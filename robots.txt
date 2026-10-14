@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /collateral/
+Sitemap: https://www.consumerandcommerce.global/sitemap.xml
