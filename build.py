@@ -15,6 +15,8 @@ SRC = ROOT / "src"
 BOOK = "https://calendar.app.google/pUPfxcmEGfwEiBRHA"
 EMAIL = "connect@consumerandcommerce.global"
 
+import hashlib
+CSS_V = hashlib.md5((ROOT / "assets/site.css").read_bytes()).hexdigest()[:8]
 MONOGRAM = (ROOT / "assets/img/monogram.svg").read_text().strip()
 
 
@@ -82,7 +84,7 @@ def page(title, description, active, body):
 <meta name="description" content="{description}">
 <link rel="preload" href="assets/fonts/montserrat-latin-300-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/montserrat-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="stylesheet" href="assets/site.css">
+<link rel="stylesheet" href="assets/site.css?v={CSS_V}">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
