@@ -22,12 +22,12 @@
   <circle cx="500" cy="560" r="9" fill="#38383B"/>
   <!-- labels -->
   <text x="300" y="190" text-anchor="middle" font-size="30" font-weight="700" fill="#38383B">Brand</text>
-  <text x="300" y="220" text-anchor="middle" font-size="19" fill="#4E4D4F">with depth</text>
+  <text x="300" y="220" text-anchor="middle" font-size="19" fill="#4E4D4F">with depth and meaning</text>
   <text x="700" y="190" text-anchor="middle" font-size="30" font-weight="700" fill="#38383B">Customers</text>
-  <text x="700" y="220" text-anchor="middle" font-size="19" fill="#4E4D4F">the right ones, in order</text>
+  <text x="700" y="220" text-anchor="middle" font-size="19" fill="#4E4D4F">the right ones, understood</text>
   <text x="500" y="612" text-anchor="middle" font-size="30" font-weight="700" fill="#38383B">Organization</text>
-  <text x="500" y="642" text-anchor="middle" font-size="19" fill="#4E4D4F">built to deliver the promise</text>
+  <text x="500" y="642" text-anchor="middle" font-size="19" fill="#4E4D4F">built to keep the promise</text>
   <!-- caption -->
-  <text x="500" y="725" text-anchor="middle" font-size="22" font-weight="700" letter-spacing="2" fill="#C0392B">THE FOUNDATIONAL TRIFECTA</text>
+  <text x="500" y="725" text-anchor="middle" font-size="22" font-weight="700" letter-spacing="2" fill="#C0392B">THE TRIFECTA</text>
   <text x="500" y="760" text-anchor="middle" font-size="22" fill="#38383B">The promise sets you apart. The organization is built to keep it.</text>
 </svg>

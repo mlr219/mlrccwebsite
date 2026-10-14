@@ -225,3 +225,4 @@ html { scroll-behavior: smooth; }
 .lead-in { font-size: 1.15rem; font-weight: 400; color: var(--shadow); flex-basis: 100%; }
 .feels .actions { margin-top: 3rem; gap: 1rem; }
 .feels h2 { max-width: 20ch; }
+.balance p strong { font-weight: 600; color: var(--shadow); }
