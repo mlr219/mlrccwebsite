@@ -4,7 +4,7 @@ Run: python3 build.py
 Each file in src/ starts with three lines:
   title: Page title
   description: Meta description
-  nav: index | how-we-work | work-with-us | cases | (blank)
+  nav: index | our-approach | services | cases | (blank)
 followed by a blank line and the page body.
 """
 import pathlib
@@ -26,8 +26,8 @@ def inline_svg(name):
 
 
 NAV = [
-    ("how-we-work", "how-we-work.html", "How we work"),
-    ("work-with-us", "work-with-us.html", "Work with us"),
+    ("our-approach", "our-approach.html", "Our approach"),
+    ("services", "services.html", "Services"),
     ("cases", "cases.html", "Cases"),
 ]
 
@@ -42,7 +42,7 @@ def header(active):
   <div class="wrap">
     <a class="lockup" href="index.html" aria-label="MLR Consumer&amp;Commerce, home">{MONOGRAM}<span>CONSUMER&amp;COMMERCE</span></a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
-    <nav class="nav" id="nav" aria-label="Main">{links}<a class="btn btn-small" href="{BOOK}">Book a call</a></nav>
+    <nav class="nav" id="nav" aria-label="Main">{links}<a class="btn btn-quiet" href="{BOOK}">Book a call</a></nav>
   </div>
 </header>"""
 
