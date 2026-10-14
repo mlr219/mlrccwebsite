@@ -232,3 +232,5 @@ html { scroll-behavior: smooth; }
 .myths h3 { margin-bottom: .45rem; }
 .myths p { margin: 0; color: var(--scorpion); }
 @media (max-width: 720px) { .myths { grid-template-columns: 1fr; } }
+.delivery { margin-top: 2.5rem; color: var(--scorpion); }
+.delivery strong { font-weight: 600; color: var(--shadow); }
