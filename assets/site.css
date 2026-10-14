@@ -241,3 +241,7 @@ html { scroll-behavior: smooth; }
 .case-group ~ .case-group { margin-top: 4rem; }
 .case-group + .case-full { border-top: 0; padding-top: 0; }
 .hero .lede + .lede { margin-top: 1rem; }
+.phases-cont { counter-reset: none; }
+.stage { margin: 3rem 0 .5rem; }
+.stage h3 { font-size: .78rem; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: var(--shadow); margin: 0 0 .35rem; }
+.stage p { margin: 0; color: var(--scorpion); }

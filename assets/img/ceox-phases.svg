@@ -2,16 +2,16 @@
   <defs><marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#A8A6A1"/></marker></defs>
   <rect width="1420" height="450" fill="#FFFFFF"/>
   <g font-size="21" font-weight="700" fill="#4E4D4F" text-anchor="middle" letter-spacing="1.5">
-    <text x="270" y="34">SET THE FOUNDATION</text>
-    <text x="900" y="34">BUILD THE BUSINESS TO DELIVER IT</text>
+    <text x="390" y="34">SET THE FOUNDATION</text>
+    <text x="1040" y="34">BUILD IT IN</text>
   </g>
   <g font-size="16" fill="#4E4D4F" text-anchor="middle">
-    <text x="270" y="58">brand, customers, the promise · done once</text>
-    <text x="900" y="58">the organization, from plan to touchpoint · every cycle</text>
+    <text x="390" y="58">brand, customers, the promise, the plan · we lead</text>
+    <text x="1040" y="58">the organization, to every touchpoint · your teams lead</text>
   </g>
   <g stroke="#A8A6A1" stroke-width="2" fill="none">
-    <path d="M70,72 V82 H470 V72"/>
-    <path d="M540,72 V82 H1300 V72"/>
+    <path d="M70,72 V82 H710 V72"/>
+    <path d="M780,72 V82 H1300 V72"/>
   </g>
   <g transform="translate(0,35)">
     <g stroke="#38383B" stroke-width="4" fill="none" stroke-linejoin="round">
