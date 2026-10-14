@@ -10,9 +10,9 @@
   <!-- sides -->
   <path d="M300,250 L500,560 L700,250" fill="none" stroke="#38383B" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
   <!-- top edge: the promise, broken by its label -->
-  <line x1="300" y1="250" x2="410" y2="250" stroke="#C0392B" stroke-width="4" stroke-linecap="round"/>
-  <line x1="590" y1="250" x2="700" y2="250" stroke="#C0392B" stroke-width="4" stroke-linecap="round"/>
-  <text x="500" y="259" text-anchor="middle" font-size="28" font-weight="700" fill="#C0392B">Promise</text>
+  <line x1="300" y1="250" x2="410" y2="250" stroke="#4E4D4F" stroke-width="4" stroke-linecap="round"/>
+  <line x1="590" y1="250" x2="700" y2="250" stroke="#4E4D4F" stroke-width="4" stroke-linecap="round"/>
+  <text x="500" y="259" text-anchor="middle" font-size="28" font-weight="700" fill="#4E4D4F">Promise</text>
   <!-- delivery arrows -->
   <line x1="442" y1="553" x2="302" y2="336" stroke="#A8A6A1" stroke-width="3" marker-end="url(#ah)"/>
   <line x1="558" y1="553" x2="698" y2="336" stroke="#A8A6A1" stroke-width="3" marker-end="url(#ah)"/>
@@ -28,6 +28,6 @@
   <text x="500" y="612" text-anchor="middle" font-size="30" font-weight="700" fill="#38383B">Organization</text>
   <text x="500" y="642" text-anchor="middle" font-size="19" fill="#4E4D4F">built to keep the promise</text>
   <!-- caption -->
-  <text x="500" y="725" text-anchor="middle" font-size="22" font-weight="700" letter-spacing="2" fill="#C0392B">THE PROMISE TRIFECTA</text>
+  <text x="500" y="725" text-anchor="middle" font-size="22" font-weight="700" letter-spacing="2" fill="#4E4D4F">THE PROMISE TRIFECTA</text>
   <text x="500" y="760" text-anchor="middle" font-size="22" fill="#38383B">The promise sets you apart. The organization is built to keep it.</text>
 </svg>
