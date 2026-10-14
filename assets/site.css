@@ -219,3 +219,4 @@ h3 { font-size: 1.25rem; font-weight: 500; letter-spacing: 0; line-height: 1.3; 
 @media (max-width: 720px) { .forms, .feels .signs { grid-template-columns: 1fr; } .forms { gap: 2rem; } }
 html { scroll-behavior: smooth; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+.inside strong { font-weight: 600; color: var(--shadow); }
