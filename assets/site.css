@@ -252,3 +252,5 @@ html { scroll-behavior: smooth; }
 .case .eyebrow { margin: 0 0 .6rem; }
 .case-full dl + .case-source { grid-column: 2; }
 .case-source { font-size: .85rem; color: var(--muted); margin: 1.5rem 0 0; }
+.portrait { aspect-ratio: 1 / 1; max-width: 15rem; border: 0; background: none; }
+.portrait img { width: 100%; height: 100%; object-fit: cover; display: block; }
