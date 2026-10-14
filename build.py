@@ -60,7 +60,7 @@ FOOTER = f"""<footer class="site-footer">
         <ul>
           <li><a href="about.html">About</a></li>
           <li><a href="partners.html">Partner with us</a></li>
-          <li><a href="https://www.linkedin.com/company/mlr-consumer-and-commerce/">LinkedIn</a></li>
+          <li><a href="https://www.linkedin.com/company/mlr-consumer-and-commerce/" target="_blank" rel="noopener">LinkedIn</a></li>
           <li><a href="mailto:{EMAIL}">{EMAIL}</a></li>
         </ul>
       </nav>
