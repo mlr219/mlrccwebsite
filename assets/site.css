@@ -240,3 +240,4 @@ html { scroll-behavior: smooth; }
 .case-group { font-size: .78rem; font-weight: 500; letter-spacing: .2em; text-transform: uppercase; color: var(--muted); margin: 0 0 1.5rem; }
 .case-group ~ .case-group { margin-top: 4rem; }
 .case-group + .case-full { border-top: 0; padding-top: 0; }
+.hero .lede + .lede { margin-top: 1rem; }
