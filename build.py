@@ -42,7 +42,7 @@ def header(active):
   <div class="wrap">
     <a class="lockup" href="index.html" aria-label="MLR Consumer&amp;Commerce, home">{MONOGRAM}<span>CONSUMER&amp;COMMERCE</span></a>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
-    <nav class="nav" id="nav" aria-label="Main">{links}<a class="btn btn-quiet" href="{BOOK}">Book a call</a></nav>
+    <nav class="nav" id="nav" aria-label="Main">{links}<a class="btn btn-quiet" href="{BOOK}" target="_blank" rel="noopener">Book a call</a></nav>
   </div>
 </header>"""
 
